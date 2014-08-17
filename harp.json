@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "title": "Title",
+    "name": "Name",
+    "uri": "",
+    "imgpath": "/assets/img"
+  }
+}
