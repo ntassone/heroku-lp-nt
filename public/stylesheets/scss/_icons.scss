@@ -1,0 +1,36 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  position: relative;
+  text-decoration: inherit;
+  width: 1em;
+  height: 1em;
+  margin-right: .5rem;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1rem;
+}
+
+.icon-webinar {
+	width: 25px;
+	height: 18px;
+	top: 2px;
+	right: -2px;
+	margin-right: .25rem;
+	background-image: url('/img/icon/icon-webinar.png');
+	@include hidpi() {
+		background-image: url('/img/icon/icon-webinar@2x.png');
+	}
+}
+
+.icon-download {
+	width: 20px;
+	height: 21px;
+	margin-bottom: -4px;
+	background-image: url('/img/icon/icon-download.png');
+	@include hidpi() {
+		background-image: url('/img/icon/icon-download@2x.png');
+	}
+}
